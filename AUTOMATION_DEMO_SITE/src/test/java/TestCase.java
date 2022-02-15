@@ -96,4 +96,13 @@ public void candidate() {
 	RecruimentFn.savebtn.click();
 	RecruimentFn.backbtn.click();
      }
+@Test(dependsOnMethods = "candidate")
+public void VerifyCandidate()
+{
+	Select S2=new Select(RecruimentFn.JobTitle);
+	S2.selectByVisibleText("QA Engineer");
+	
+	System.out.println("After Adding The Candiate"+RecruimentFn.Result.getText());
+
+}
 }

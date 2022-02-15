@@ -90,8 +90,18 @@ public class RecruimentFn  {
     public static WebElement savebtn;
     
     
-   @FindBy(xpath="//input[@id='btnBack']")
-   public static WebElement Backbtn;
+    @FindBy(xpath="//input[@id='btnBack']")
+    public static WebElement Backbtn;
+    
+    
+    @FindBy(xpath="//select[@id='candidateSearch_jobTitle']")
+    public static WebElement JobTitle;
+    
+    @FindBy(xpath="//input[@id='btnSrch']")
+    public static WebElement Searchbtn;
+    
+    @FindBy(xpath="//*[@id=\"resultTable\"]/tbody/tr[1]")
+    public static WebElement Result;
 
 }
 
