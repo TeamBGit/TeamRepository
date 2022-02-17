@@ -18,9 +18,7 @@ public class Base {
 		pro= new Properties();
 		FileInputStream fis=new FileInputStream("./Configuration//Config.properties");
 		pro.load(fis);
-		
-		
-			}
+	}
 	public static void initialisation(){
 			String Launching=pro.getProperty("browserName");
 			

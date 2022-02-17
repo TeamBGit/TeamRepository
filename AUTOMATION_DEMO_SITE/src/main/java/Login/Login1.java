@@ -30,7 +30,8 @@ WebElement submitbtn;
 		Thread.sleep(3000);
 		password.sendKeys(str);
 		Thread.sleep(3000);
-		submitbtn.click();		
+		submitbtn.click();
+		
 	}
 	
 	

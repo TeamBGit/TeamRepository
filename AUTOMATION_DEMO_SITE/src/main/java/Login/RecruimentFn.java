@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 public class RecruimentFn  {
 
 	@FindBy(linkText = "Recruitment")
-	public static WebElement RequirmentTab;
+	public static WebElement RecuirmentTab;
 	
 	@FindBy(linkText = "Vacancies")
 	public static WebElement vacancytab;
@@ -102,6 +102,9 @@ public class RecruimentFn  {
     
     @FindBy(xpath="//*[@id=\"resultTable\"]/tbody/tr[1]")
     public static WebElement Result;
+    
+    @FindBy(linkText ="Download")
+    public static WebElement Download;
 
 }
 

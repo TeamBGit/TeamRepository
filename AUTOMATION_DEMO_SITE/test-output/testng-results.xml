@@ -1,49 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-15T03:16:51Z" name="Default suite" finished-at="2022-02-15T03:17:13Z" duration-ms="22195">
+  <suite started-at="2022-02-17T03:51:23Z" name="Suite" finished-at="2022-02-17T03:51:55Z" duration-ms="31529">
     <groups>
     </groups>
-    <test started-at="2022-02-15T03:16:51Z" name="Default test" finished-at="2022-02-15T03:17:13Z" duration-ms="22195">
+    <test started-at="2022-02-17T03:51:23Z" name="Test" finished-at="2022-02-17T03:51:55Z" duration-ms="31529">
       <class name="TestCase">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:16:43Z" name="SetUp" finished-at="2022-02-15T03:16:51Z" duration-ms="8617" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:14Z" name="SetUp" finished-at="2022-02-17T03:51:23Z" duration-ms="9597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:16:51Z" name="BeforeTest" finished-at="2022-02-15T03:16:51Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:23Z" name="BeforeTest" finished-at="2022-02-17T03:51:23Z" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="Test()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:16:51Z" name="Test" finished-at="2022-02-15T03:17:04Z" duration-ms="12779" status="PASS">
+        <test-method signature="Negative_Test()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:23Z" name="Negative_Test" finished-at="2022-02-17T03:51:31Z" duration-ms="7887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_Test -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:31Z" name="BeforeTest" finished-at="2022-02-17T03:51:31Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Test()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:31Z" name="Test" finished-at="2022-02-17T03:51:43Z" depends-on-methods="TestCase.Negative_Test" duration-ms="11988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:04Z" name="BeforeTest" finished-at="2022-02-15T03:17:04Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:43Z" name="BeforeTest" finished-at="2022-02-17T03:51:43Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="vacancy()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:04Z" name="vacancy" finished-at="2022-02-15T03:17:08Z" depends-on-methods="TestCase.Test" duration-ms="3454" status="PASS">
+        <test-method signature="vacancy()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:43Z" name="vacancy" finished-at="2022-02-17T03:51:47Z" depends-on-methods="TestCase.Test" duration-ms="3426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vacancy -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:08Z" name="BeforeTest" finished-at="2022-02-15T03:17:08Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:47Z" name="BeforeTest" finished-at="2022-02-17T03:51:47Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="addvacancy()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:08Z" name="addvacancy" finished-at="2022-02-15T03:17:10Z" depends-on-methods="TestCase.vacancy" duration-ms="2866" status="PASS">
+        <test-method signature="addvacancy()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:47Z" name="addvacancy" finished-at="2022-02-17T03:51:50Z" depends-on-methods="TestCase.vacancy" duration-ms="3469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addvacancy -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:10Z" name="BeforeTest" finished-at="2022-02-15T03:17:10Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:50Z" name="BeforeTest" finished-at="2022-02-17T03:51:50Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="candidate()[pri:0, instance:TestCase@19835e64]" started-at="2022-02-15T03:17:10Z" name="candidate" finished-at="2022-02-15T03:17:13Z" depends-on-methods="TestCase.addvacancy" duration-ms="3050" status="PASS">
+        <test-method signature="candidate()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:50Z" name="candidate" finished-at="2022-02-17T03:51:54Z" depends-on-methods="TestCase.addvacancy" duration-ms="4067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- candidate -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:54Z" name="BeforeTest" finished-at="2022-02-17T03:51:54Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="VerifyCandidate()[pri:0, instance:TestCase@68b32e3e]" started-at="2022-02-17T03:51:54Z" name="VerifyCandidate" finished-at="2022-02-17T03:51:55Z" depends-on-methods="TestCase.candidate" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCandidate -->
       </class> <!-- TestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

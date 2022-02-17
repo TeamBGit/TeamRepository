@@ -9,8 +9,10 @@
           <include name="addvacancy"/>
           <include name="candidate"/>
           <include name="SetUp"/>
+          <include name="Negative_Test"/>
           <include name="BeforeTest"/>
           <include name="vacancy"/>
+          <include name="VerifyCandidate"/>
         </methods>
       </class> <!-- TestCase -->
     </classes>

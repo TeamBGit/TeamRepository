@@ -33,12 +33,12 @@ public void BeforeTest() throws IOException {
 
 
 
-	@Test
+	@Test(dependsOnMethods = "Negative_Test")
 	public void Test() throws Exception {
 		driver.navigate().refresh();
 		lp.signin("Admin","admin123");	
 	}
-	@Test(enabled = false)
+	@Test()
 	public void Negative_Test() throws Exception
 	{
 		
@@ -47,7 +47,7 @@ public void BeforeTest() throws IOException {
 @Test(dependsOnMethods ="Test")
 public void vacancy()
 {
-	RecruimentFn. RequirmentTab.click();
+	RecruimentFn. RecuirmentTab.click();
 	RecruimentFn.vacancytab.click();
 	
     Select s=new Select(RecruimentFn.jobtitle);
@@ -103,6 +103,7 @@ public void VerifyCandidate()
 	S2.selectByVisibleText("QA Engineer");
 	
 	System.out.println("After Adding The Candiate"+RecruimentFn.Result.getText());
-
+    
+	RecruimentFn.Download.click();
 }
 }
